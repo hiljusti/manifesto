@@ -2,40 +2,40 @@ The Kindelia Manifesto
 ======================
 
 What is the true nature of computation? A hundred years ago, humanity answered that very question, twice. In 1936, Alan
-invented the Turing Machine, which, highly inspired by the mechanical trend of the 20th century, distillated the common
+invented the Turing Machine, which, highly inspired by the mechanical trend of the 20th century, distilled the common
 components of early computers into a single universal machine that, despite its simplicity, was capable of performing
 every computation conceivable. From simple numerical calculations to entire operating systems, this small machine could
 compute anything. Thanks to its elegance and simplicity, the Turing Machine became the most popular model of
 computation, and served as the main inspiration behind every modern processor and programming language. C, Fortran,
-Java, Python are languages based on a procedural mindset, which is highly inspired by Turing's invention.
+Java and Python, are languages based on a procedural mindset, which is highly inspired by Turing's invention.
 
 Yet, the Turing Machine wasn't the only model of computation that humanity invented. Albeit a less known history, also
-in 1936, and in a completely independent way, Alonzo Church invented the Lambda Calculus, which distillated the common
+in 1936, and in a completely independent way, Alonzo Church invented the Lambda Calculus, which distilled the common
 components - not of machines, but of different branches of math - into a single universal language that was capable of
 modeling every mathematical theory. What was surprising, though, is that this language, unexpectedly, could also perform
 computations. The same algorithms that could be computed by Turing Machines procedurally, could also be computed by the
 Lambda Calculus, through symbolic manipulations. The idea of using the Lambda Calculus for computations inspired the
-creation of an entire new branch of programming, which we call the functional paradigm. Haskell, Clojure, Elixir, Agda
+creation of an entire new branch of programming, which we call the functional paradigm. Haskell, Clojure, Elixir and Agda,
 are languages based on the functional mindset, which is highly inspired by Church's invention.
 
-If both Turing Machines (and procedural languages), and the Lambda Calculus (and functional languages), are capable of
-computation, which mindset is the "right one"? When it comes to raw capabilities, neither. Still on the 20th century, it
+If both, Turing Machines (procedural languages) and the Lambda Calculus (functional languages), are capable of doing
+computations, then which mindset is the "right one"? When it comes to raw capabilities, neither. Still on the 20th century, it
 was proven that, when it comes to computability, Turing Machines and the Lambda Calculus are equivalent. Every problem
 that one can solve, can also be solved by the other. That insight is known as the Church-Turing thesis, which
 essentially states that computers are capable of emulating each-other. If that was completely true, then the choice
-wouldn't matter.  After all, if, for example, every programming language is capable of solving the same set of problems,
+wouldn't matter. After all, if, for example, every programming language is capable of solving the same set of problems,
 then what is the point in making a choice?
 
 Yet, while the Church-Turing hypothesis makes a statement about computability, it says nothing about computation. In
 other words, a model can be inherently less efficient than other. Historically, procedural languages such as C and
-Fortran have have consistently outperformed the fastest functional languages, such as Haskell and Ocaml. Yet, languages
+Fortran have consistently outperformed the fastest functional languages, such as Haskell and Ocaml. Yet, languages
 like Haskell and Agda provide abstractions that make entire classes of bugs unrepresentable. Historically, the
 functional paradigm has been more secure. Of course, these factors can vary greatly, but the point is that this notion
-of equivalence is limited, and there are impactiful differences.
+of equivalence is limited, and there are impactful differences.
 
 In 1983, Stephen Wolfram introduced the Rule 110, an elementary cellular automaton that has been shown to be as capable
 as both. Wolfram argues that this model is of fundamental importance for math and physics, and that a new kind of science should emerge from
-its study. These claims were met with harsh scepticism; after all, if all models are equivalent, what is the point?
+its study. These claims were met with harsh skepticism; after all, if all models are equivalent, what is the point?
 Yet, we've just stablished that, while equal in capacity, different models result in different practical outcomes.
 Perhaps there isn't a new branch of science to emerge from the study of alternative models of computation, but what
 about the design of processors and programming languages?
