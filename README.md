@@ -18,7 +18,7 @@ Lambda Calculus, through symbolic manipulations. The idea of using the Lambda Ca
 creation of an entire new branch of programming, which we call the functional paradigm. Haskell, Clojure, Elixir and Agda,
 are languages based on the functional mindset, which is highly inspired by Church's invention.
 
-If both, Turing Machines (procedural languages) and the Lambda Calculus (functional languages), are capable of doing
+If both, Turing Machines (and procedural languages) and the Lambda Calculus (and functional languages), are capable of doing
 computations, then which mindset is the "right one"? When it comes to raw capabilities, neither. Still on the 20th century, it
 was proven that, when it comes to computability, Turing Machines and the Lambda Calculus are equivalent. Every problem
 that one can solve, can also be solved by the other. That insight is known as the Church-Turing thesis, which
@@ -61,8 +61,8 @@ runtimes. Attempts to solve the issue only pushed it into other directions, such
 inhibit parallelism, or garbage collection, which isn't atomic. The failure of the functional paradigm to achieve
 satisfactory efficiency impacted its popularity, which, in turn, lead to tools like formal proofs to never catch up.
 
-This raises the question: is there a model of computation which, like Turing Machine, has a reasonable physical
-implementation, yet, like the Lambda Calculus, has a robust logical interpretation? In 1997, Yves Lafont proposed a new
+This raises the question: is there a model of computation, which, like the Turing Machine, has a reasonable physical
+implementation, and yet, like the Lambda Calculus, has a robust logical interpretation? In 1997, Yves Lafont proposed a new
 alternative, the Interaction Combinators, on which substitution is broken down into 2 fundamental laws: commutation,
 which creates and copies information, and annihilation, which observes and destroys information. In a sense, this may
 resemble SKI combinators, but that isn't a good analogy, since SKI combinators still include non-atomic operations: K
@@ -71,7 +71,7 @@ Interaction Combinators is that its reduction laws are truly atomic: each operat
 amount of steps, and has a clear physical mapping. Not only that, they're inherently parallel, in the same sense that
 the Lambda Calculus has been claimed to be, in theory, but without the issues that let it to be, in practice.
 
-Interestingly, every aspect which is considered good in other models of computation is present on Interaction
+Interestingly, every aspect that is considered good in other models of computation, is present on Interaction
 Combinators, while negative aspects are completely absent. Moreover, both the Lambda Calculus and the Turing Machine can
 be efficiently emulated by the Interaction Combinators, while the opposite isn't true. This suggests that, while the 3
 systems are equivalent in terms of computability, the Interaction Combinators are more capable in terms of computation.
